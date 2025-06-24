@@ -1,0 +1,478 @@
+header {
+    overflow: hidden;
+    height: 80px;
+    background-color: #141314;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    justify-content: space-between; 
+    z-index: 2; /*arruma hover aparecendo por cima da header */
+}
+
+header nav {
+    margin-top: 10px;
+    position: relative;
+    margin-right: 50px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+    margin-left: 20px;
+}
+
+header a h1 {
+    color: white;
+    margin-left: 30px;
+    font-family: "Gabarito", sans-serif;
+}
+
+
+header a:link {
+    text-decoration: none!important;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Gabarito", sans-serif;
+    display: block;
+}
+
+header nav ul li:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+    font-weight: 600;
+}
+.drop-hover {
+    position: relative;
+}
+
+.drop-hover .drop {
+    width: 100%;
+    position: absolute;
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #222021;
+    overflow-x: hidden;
+}
+
+/* HOME */
+
+.home {
+    font-family: "Gabarito", sans-serif;
+    color: white;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    align-items: center;
+
+}
+
+.home img {
+    width: 100%;
+    position: static;
+}
+
+.texto {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+.texto a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.texto h1 {
+    font-size: 40px;
+}
+
+.texto p {
+    font-size: 20px;
+}
+
+.home-main {
+    padding: 80px 0px 0px 0px;
+}
+
+
+
+
+/* */
+
+.navigate {
+    margin-top: 25px;
+    margin-bottom: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigate a {
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 10px;
+    border: 0px;
+    background-color:rgb(20, 18, 19);
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.navigate a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    color: #141314;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 800;
+
+
+}
+
+.see-more {
+    margin-top: 5px;
+    margin-bottom: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see-more a {
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 10px;
+    border: 0px;
+    background-color:rgb(20, 18, 19);
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.see-more a:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    color: #141314;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 800;
+
+
+}
+
+
+main {
+    padding: 80px;
+    margin-left: 0px;
+    justify-content: center;;
+
+}
+
+.section-title {
+    margin-top: 0px;
+    font-family: "Gabarito", sans-serif;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fotos {
+    padding: 35px;
+    padding-top: 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+}
+
+
+.container img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 480px;
+    height: 270px;
+}
+
+
+.container a:link {
+    text-align: center;
+    margin: 0px;
+    position:static;
+    text-decoration: none!important;
+}
+
+.container img, p {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+   
+}
+
+
+.container p {
+    margin-top: 0px;
+    font-family: "Gabarito", sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+    background-color: rgb(20, 18, 19);
+    font-weight: 1000;
+}
+
+img[id="off"] {
+    filter: grayscale(90%);
+
+}
+
+img[id="off"]:hover {
+    filter: grayscale(80%);
+    cursor: default;
+}
+
+p[id="off"] {
+    cursor: default;
+}
+
+
+.container:hover img,
+.container:hover p {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  background-color: white;
+  color: rgb(20, 18, 19);
+  font-weight: 1200;
+}
+
+
+/* */
+
+
+footer {
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-family: "Gabarito", sans-serif;
+}
+
+/* */
+
+.voltar {
+    margin-top: 25px;
+    background-color:rgb(20, 18, 19);
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 85px;
+    
+}
+
+.voltar:hover {
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+    cursor: pointer;
+    color: #141314;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.title {
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    font-size: 40px;
+}
+
+.champion_info {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.champion_img {
+  width: 360px;
+  height: 480px;
+}
+
+.champion_text {
+ margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.champion_name, .lore, .line{
+  margin: 0 0 8px 0;
+  color: white;
+  font-family: "Gabarito", sans-serif;
+
+}
+
+.champion_details a{
+    color: white;
+    text-decoration: none!important;
+}
+
+.champion_details, .lore p, .line p {
+    margin-top: 0px;
+    color: white;
+    font-family: "Gabarito", sans-serif;
+}
+
+.champion_details p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.lore {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 26px;
+
+}
+
+
+.lore h1, .line h1 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.lore p, .line p {
+    font-size: 18px;
+}
+
+.lore a, .line a {
+    color: #00aaff;
+    text-decoration: none;
+    
+}
+
+.lore a img, .champion_details a img {
+    width: 15px;
+    height: 15px;
+}
+
+.banner {
+    margin-top: 10px;
+    width: 45%;
+}
+
+
+
+.champion_skins h1 {
+
+    margin-bottom: 2%;
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    font-size: 35px;
+}
+
+hr {
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+}
+
+.champion_skins h2 {
+    margin-top: 0px;
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    font-size: 25px;
+}
+
+.skin-tier {
+    width: 15px;
+    height: 15px;
+}
+
+.value {
+    width: 15px;
+    height: 15px;
+}
+
+.section .splash_art{
+    width: 960px;
+    height: 540px;
+
+}
+
+.section {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section a {
+    margin: 15px;
+    text-decoration: none!important;
+}
+
+.section a p {
+    text-align: center;
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    
+}
+
+.section .icon {
+    width: 150px;
+    height: 150px;
+}
+
+.section .chroma {
+    width: 270px;
+    height: 303px;
+    background-color: white;
+}
+
