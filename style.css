@@ -260,6 +260,7 @@ main {
 
 img[id="off"] {
     filter: grayscale(90%);
+    transition-duration: 2s;
 
 }
 
