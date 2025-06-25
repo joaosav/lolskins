@@ -87,7 +87,7 @@ body {
     position: static;
 }
 
-.texto {
+.text {
     position: absolute;
     width: 100%;
     text-align: center;
@@ -95,16 +95,16 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.texto a {
+.text a {
     text-decoration: none;
     color: white;
 }
 
-.texto h1 {
+.text h1 {
     font-size: 40px;
 }
 
-.texto p {
+.text p {
     font-size: 20px;
 }
 
@@ -283,7 +283,7 @@ p[id="off"] {
 
 /* CHAMPION / SKIN PAGE */
 
-.voltar {
+.back {
     margin-top: 25px;
     background-color:rgb(20, 18, 19);
     color: white;
@@ -296,7 +296,7 @@ p[id="off"] {
     width: 85px;
 }
 
-.voltar:hover {
+.back:hover {
     transform: scale(1.1);
     transition-duration: 0.1s;
     cursor: pointer;
