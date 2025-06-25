@@ -265,7 +265,7 @@ img[id="off"] {
 }
 
 img[id="off"]:hover {
-    filter: grayscale(80%);
+    filter: grayscale(20%);
     cursor: default;
 }
 
