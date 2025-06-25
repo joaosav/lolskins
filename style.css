@@ -473,3 +473,9 @@ footer a:hover {
     text-decoration: underline;
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+  }
+}
+    
